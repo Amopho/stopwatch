@@ -19,3 +19,18 @@ grabStart.onclick = function () {
 grabStop.onclick = function () {
   clearInterval(interval);
 };
+
+grabReset.onclick = function () {
+  clearInterval(interval);
+  tens = "00";
+  secs = "00";
+  grabTens.innerHTML = tens;
+  grabSecs.innerHTML = secs;
+};
+
+function startTimer() {
+  tens++;
+  if (tens <= 9) {
+    grabTens.innerHTML = "0" + tens;
+  }
+}
