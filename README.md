@@ -19,7 +19,7 @@ Create a nice layout with some SASS to make it look pretty.
 - Publishing online: `npm run deploy`
 - Project structure: `scss` and `styles` folders
 
-[15/04/2020](apr/15-04)
+### Sass nesting
 
 - Installing sass: `npm install -g sass`
 - Creating input: `.scss` vs. `.sass`
@@ -32,7 +32,7 @@ Create a nice layout with some SASS to make it look pretty.
 - Sass maps
 - Project: color guide in Sass
 
-[19/04/2020](apr/19-04)
+### Saas flex and mixins
 
 - Review from previous days (Sass)
 - Defining mixins: `@mixin [name](){ ... }`
